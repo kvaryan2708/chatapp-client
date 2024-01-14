@@ -254,3 +254,21 @@ h4 {
 	text-align: center;
 	cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+	.todo {
+	  width: 80%; /* Adjust the width for smaller screens */
+	}
+  
+	h1 {
+	  font-size: 32px; /* Adjust the font size for smaller screens */
+	}
+  
+	.popup {
+	  max-width: 100%; /* Make the popup full width on smaller screens */
+	}
+  
+	.emp {
+	  font-size: 24px; /* Adjust the font size for smaller screens */
+	  left: 25%; /* Adjust the position for smaller screens */
+	}
+  }
