@@ -256,7 +256,7 @@ h4 {
 }
 @media screen and (max-width: 768px) {
 	.todo {
-	  width: 80%; /* Adjust the width for smaller screens */
+	  width: 100%; /* Adjust the width for smaller screens */
 	}
   
 	h1 {
@@ -270,5 +270,8 @@ h4 {
 	.emp {
 	  font-size: 24px; /* Adjust the font size for smaller screens */
 	  left: 25%; /* Adjust the position for smaller screens */
+	}
+	.button{
+		width:15%;
 	}
   }
