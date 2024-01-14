@@ -11,7 +11,7 @@ import Navbar2 from "./Navbar2"
 import Send from "./Send"
 import View from "./View"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-const api_base="http://3.110.56.137:3000"
+const api_base="https://msg-app-sigma.vercel.app"
 
 function App() {
   const [value,setValue]=useState(true);
